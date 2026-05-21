@@ -2,53 +2,51 @@
 <html>
 <head>
   <title>Sean Avery Lim Co</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
-  <h2>Who am I?</h2> <br>
-  <a href="index.html">Home</a>
-  <a href="interests.html">Interests</a>
-  <hr>
+  <header id="header">
+    <h2>Who am I?</h2>
+    <nav id="nav">
+      <a href="index.html">Home</a>
+      <a href="interests.html">Interests</a>
+    </nav>
+  </header>
 
-  
-  <div id="introduction">
-        <b>Full Name: </b>Sean Avery Lim Co <br>
-        <b>Course: </b>Bachelor of Science in Information Technology <br>
-        <b>Age: </b>19 <br>
-        <b>Birthday: </b>August, 16, 2006 <br>
-        <b>Personality: </b>Introvert <br>
-  </div>
-  <img src="me.png" alt="My Photo" width="200" height="200">
+    <section class="card" id="introduction">
+      <img id="introduction-photo" src="me.png" alt="Sean Avery Lim Co">
+      <div id="Information">
+        <h3>Personal Information</h3>
+        <div class="spacing"><span class="bold">Full Name:</span> Sean Avery Lim Co</div>
+        <div class="spacing"><span class="bold">Course:</span> PSIT</div>
+        <div class="spacing"><span class="bold">Age:</span> 19</div> 
+        <div class="spacing"><span class="bold">Birthday:</span> August 16, 2006 </div>
+        <div class="spacing"><span class="bold">Personality:</span> Introvert</div>
+      </div>
+    </section>
 
-  <div id="foods">
-    <h2>My Favorite Foods</h2>
-    <table>
-        <tr>
+
+    <main id="separator">
+    <section class="card" id="foods">
+      <h2>My Favorite Foods</h2>
+      <table id="foods-table">
+        <thead>
+          <tr>
             <th>Food Name</th>
             <th>Home Made or Restaurant</th>
-        </tr>
-        <tr>
-            <td>Pizza</td>
-            <td>Restaurant</td>
-        </tr>
-        <tr>
-            <td>Sinigang</td>
-            <td>Home Made</td>
-        </tr>
-        <tr>
-            <td>Carbonara</td>
-            <td>Home Made</td>
-        </tr>
-        <tr>
-            <td>Grilled Cheese</td>
-            <td>Restaurant</td>
-        </tr>
-        <tr>
-            <td>Tempura</td>
-            <td>Restaurant</td>
-        </tr>
-    </table>
-  </div>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Pizza</td><td>Restaurant</td></tr>
+          <tr><td>Sinigang</td><td>Home Made</td></tr>
+          <tr><td>Carbonara</td><td>Home Made</td></tr>
+          <tr><td>Grilled Cheese</td><td>Restaurant</td></tr>
+          <tr><td>Tempura</td><td>Restaurant</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
 
 </body>
 </html>
