@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ede7f6;
+  color: #2d2d2d;
+  font-size: 0.90rem;
+}
+
+#header {
+  background-color: #5e35b1;
+  padding: 0.8rem 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+#header h2 {
+  color: white;
+}
+ 
+#nav a {
+  color: #d1c4e9;
+  margin-left: 1rem;
+}
+ 
+#nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+ 
+#separator {
+  max-width: 50rem;
+  margin: 1.5rem auto;
+  padding: 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+ 
+.card,
+.interest-card {
+  background-color: white;
+  border: 1px solid #d1c4e9;
+  border-radius: 6px;
+  padding: 20px;
+}
+ 
+.card h2,
+.card h3 {
+  color: #5e35b1;
+  margin-bottom: 12px;
+}
+ 
+#introduction {
+  display: flex;
+  gap: 20px;
+}
+ 
+#introduction-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 6px;
+  border: 2px solid #d1c4e9;
+}
+ 
+.spacing {
+  margin-bottom: 8px;
+}
+ 
+.bold {
+  font-weight: bold;
+}
+ 
+#foods h2 {
+  text-align: center;
+}
+ 
+#foods-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+#foods-table th {
+  background-color: #5e35b1;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+ 
+#foods-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e0d7f5;
+}
+
+#first-row {
+  display: flex;
+  gap: 1.5rem;
+}
+
+#interest-card {
+  flex: 1;
+  min-height: 20rem;
+}
+
+#second-row {
+  display: flex;
+  justify-content: center;
+}
+ 
+#anime {
+  width: 50%;
+  min-height: 23rem;
+  text-align: center;
+}
+ 
+.interest-card img {
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.interest-card audio,
+.interest-card video {
+  display: block;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+#contact-form {
+  display: flex;
+  gap: 32px;
+}
+ 
+.contact {
+  margin-bottom: 10px;
+}
+ 
+.contact label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+ 
+.contact input {
+  padding: 6px 10px;
+  border: 1px solid #c5b8e8;
+  border-radius: 4px;
+  width: 220px;
+}
+ 
+.contact-interests p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+ 
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+#button-send {
+  background-color: #5e35b1;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+#button-send:hover {
+  background-color: #7c4dca;
+}
+
+.social {
+  color: #5e35b1;
+  margin-right: 20px;
+}
+ 
+.social:hover {
+  text-decoration: underline;
+}
